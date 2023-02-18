@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> PRELIM_PunzalanC </title>
+    <style>
+      table {
+        border-collapse: collapse;
+        margin: 20px 0;
+        width: 100%;
+      }
+
+      th,
+      td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+      }
+
+      #tcolor {
+        background-color: #766DC1;
+      }
+
+      #color1 {
+        background-color: #FBD1D3;
+      }
+
+      #color2 {
+        background-color: #F198AF;
+      }
+
+      #color3 {
+        background-color: #EBB2D6;
+      }
+
+      #color4 {
+        background-color: #9F81CD;
+      }
+      input{
+        width: 25%;
+        display: block;
+      }
+      footer{
+        text-align: center;
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+    <h2>DESCRIPTION</h2>
+    <p> In this Website you can check the given data's and also user's can input a name, address, contact number, password and select their respective gender. </p>
+    </p>
+    <table>
+      <thead>
+        <tr id="tcolor">
+          <th>Name</th>
+          <th>Age</th>
+          <th>Address</th>
+          <th>Contact Number</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr id="color1">
+          <td>Russell Mendez</td>
+          <td>19</td>
+          <td>San Marcelino</td>
+          <td>+63 9267423151</td>
+        </tr>
+        <tr id="color2">
+          <td>Alice Black</td>
+          <td>30</td>
+          <td>San Felipe</td>
+          <td>+63 9512571312</td>
+        </tr>
+        <tr id="color3">
+          <td>Hafsa Randolph</td>
+          <td>49</td>
+          <td>Cabangan</td>
+          <td>+63 9535675747</td>
+        </tr>
+        <tr id="color4">
+          <td>Audrey Cooper</td>
+          <td>25</td>
+          <td>Pangasinan</td>
+          <td>+63 9241565626</td>
+        </tr>
+      </tbody>
+    </table>
+    <form>
+      <label for="name"> NAME: </label>
+      <input type="text" name="name" required>
+      <label for="address"> ADDRESS: </label>
+      <input type="text" name="address" required>
+      <label for="contactnumber"> CONTACT NUMBER#: </label>
+      <input type="text" name="contactnumber" required>
+      <label for="password"> PASSWORD: </label>
+      <input type="password" name="password" required>
+      <label for="gender"> GENDER: </label>
+      <select name="gender" required>
+        <option value=""> Please Select </option>
+        <option value="male"> Male </option>
+        <option value="female"> Female </option>
+        <option value="other"> Other </option>
+      </select>
+      <input type="submit" value="Submit">
+    </form>
+    <br />
+    <br />
+    <footer> Christopher Joseph S. Punzalan, PRELIM, 41 </footer>
+  </body>
+</html>
